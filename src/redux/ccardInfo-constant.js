@@ -1,0 +1,1 @@
+export const CHANGE_CCARD_INFO = 'CHANGE_CCARD_INFO';

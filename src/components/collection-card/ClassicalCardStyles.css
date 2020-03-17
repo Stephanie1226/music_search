@@ -1,0 +1,108 @@
+.c-card-display {
+	background-color: #9db8b8;
+	color: #303030;
+	opacity: 0.8;
+	display: flex;
+	weight: 30%;
+  width: 280px;
+	flex-direction: row;
+}
+
+.composition-font {
+  font-family: 'Crimson Text', serif;
+}
+
+.worktype-font {
+  font-family: 'Cormorant', serif;
+}
+
+.genre-font {
+  font-family: 'Cormorant', serif;
+  line-height: 0px;
+}
+
+
+.c-box-container {
+  background-color: #9db8b8;
+  margin: 0;
+  padding: 0;
+  border: 1px solid transparent; 
+  outline: none;   
+}
+
+div[class*=box] {
+  height: 33.33%;
+  width: 100%; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.c-btn {
+    line-height: 35px;
+    height: 35px;
+    text-align: center;
+    width: 250px;
+    cursor: pointer;
+    font-family: 'Cinzel', serif;
+    top: 2px;
+}
+
+.c-btn-one {
+    color: #black;
+    transition: all 0.3s;
+    position: relative;
+}
+
+.c-btn-one span {
+    transition: all 0.3s;
+}
+
+.c-btn-one::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+    transition: all 0.3s;
+    border-top-width: 1px;
+    border-bottom-width: 1px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-top-color: rgba(255,255,255,0.5);
+    border-bottom-color: rgba(255,255,255,0.5);
+    transform: scale(0.1, 1);
+}
+
+.c-btn-one:hover span {
+    letter-spacing: 2px;
+}
+
+.c-btn-one:hover::before {
+    opacity: 1; 
+    transform: scale(1, 1); 
+}
+
+.c-btn-one::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    transition: all 0.3s;
+    background-color: rgba(255,255,255,0.1);
+}
+
+.c-btn-one:hover::after {
+    opacity: 0; 
+    transform: scale(0.1, 1);
+}
+
+
+
+
