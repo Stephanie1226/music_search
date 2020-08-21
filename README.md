@@ -10,4 +10,5 @@
     $ npm install
     $ npm start
     ```
-## Usage
+## How to
+1. Simply click on a type (contemporary/classic) of music you are interested in
