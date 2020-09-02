@@ -11,11 +11,11 @@
     $ npm start
     ```
 ## How to
-1. Simply click on a type (contemporary/classic) of music you are interested in from th homepage
+1. Simply click on a type (contemporary/classic) of music you are interested in from the homepage
 <img src="images/homepage.png" width=700>
-2. Search fo your favorite song
+2. Search for your favorite song
 <img src="images/searchpage.png" width=500> <img src="images/searchkeyword.png" width=500>
-3. Your foavorite song will pop out
+3. Your foavorite song will pop out right away
 <img src="images/youtubeembed.png" width=500>
-4. Click on the checkboxes below to see related recommendation 
+4. Click on the checkboxes below to see related recommendations 
 <img src="images/filters.png" width=500>
